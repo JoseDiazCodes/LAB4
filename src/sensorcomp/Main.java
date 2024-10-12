@@ -12,9 +12,8 @@ public class Main {
    * The entry point of the program.
    * Creates a WaterSensor, takes 10 readings, and prints each reading
    * along with the corresponding flooding status.
-   *
-   * @param args command line arguments (not used)
    */
+
   public static void main(String[] args) {
     IDiscreteSensor sensor = new WaterSensor();
     for (int i = 0; i < 10; i++) {
