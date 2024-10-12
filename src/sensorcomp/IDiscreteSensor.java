@@ -29,10 +29,8 @@ public interface IDiscreteSensor extends ISensor {
 
   /**
    * Returns the last reading taken by the sensor.
-   * <p>
    * This default implementation always returns 0.
    * Implementing classes should override this method if needed.
-   * </p>
    *
    * @return the last sensor reading, default is 0
    */
